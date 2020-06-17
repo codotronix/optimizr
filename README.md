@@ -1,2 +1,4 @@
-# optimizr
-Optimize Web Resources Online
+# OPTIMIZR
+
+## Description
+Optimize Web Resources Online - minify html, css, javascript.
