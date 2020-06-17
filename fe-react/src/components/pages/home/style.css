@@ -1,0 +1,18 @@
+.homepage .tabs {
+    display: flex;
+}
+.homepage .tabs .tab {
+    margin: .5px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    flex-grow: 1;
+    text-align: center;
+}
+.homepage .tabs .tab:hover,
+.homepage .tabs .tab.selected {
+    background: rgba(0, 0, 0, 0.3);
+    color: #000;
+}
+.homepage .tabs .tab.selected {
+    transform: scale(1.2);
+}
