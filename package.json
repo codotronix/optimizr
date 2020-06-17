@@ -1,0 +1,28 @@
+{
+  "name": "optimizr",
+  "version": "1.0.0",
+  "description": "Web Resources Optimizer - Minify and Optimize web resources like HTML, CSS, JS, IMages etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codotronix/optimizr.git"
+  },
+  "keywords": [
+    "web optimizer",
+    "web resource optimizer",
+    "minify html",
+    "minify css",
+    "minify js",
+    "image size reducer"
+  ],
+  "author": "Suman Barick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codotronix/optimizr/issues"
+  },
+  "homepage": "https://github.com/codotronix/optimizr#readme"
+}
