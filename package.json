@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "firebase deploy"
+    "deploy": "cd ./fe-react/ && npm run build && cd .. && firebase deploy"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "image size reducer"
   ],
   "author": "Suman Barick",
-  "license": "MIT",
+  "license": "PROPRIETARY",
   "bugs": {
     "url": "https://github.com/codotronix/optimizr/issues"
   },
