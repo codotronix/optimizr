@@ -29,7 +29,7 @@ code {
 .main-container {
   min-height: calc(100vh - 130px); /* header 70px, footer 30px, margin-y 15+15*/
   width: 90vw;
-  max-width: 900px;
+  max-width: 1200px;
   position: relative;
   margin: 15px auto;
 }
