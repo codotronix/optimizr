@@ -26,6 +26,17 @@ code {
     monospace;
 }
 
+/**************************************
+* UTILITY STYLES
+**************************************/
+.hidden {
+  display: none !important;
+}
+.mt-25 {
+  margin-top: 25px !important;
+}
+/*************************************/
+
 .main-container {
   min-height: calc(100vh - 130px); /* header 70px, footer 30px, margin-y 15+15*/
   width: 90vw;
