@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "firebase serve --only functions,hosting",
     "deploy": "cd ./fe-react/ && npm run build && cd .. && firebase deploy"
   },
   "repository": {

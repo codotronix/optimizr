@@ -9,7 +9,7 @@
     ],
     "rewrites": [
       {
-        "source": "/time",
+        "source": "/api/*",
         "function": "app"
       },
       {
