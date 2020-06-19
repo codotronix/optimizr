@@ -1,0 +1,24 @@
+.loader-mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, .9);
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-mask .txt {
+    font-size: 40px;
+    opacity: 1;
+    animation: on-off 2s linear 0s infinite;
+}
+
+@keyframes on-off {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}

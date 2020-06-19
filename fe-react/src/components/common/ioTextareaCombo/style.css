@@ -10,6 +10,9 @@
     height: calc(100vh - 200px);
     resize: none;
     padding: 10px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    font-size: 14px;
 }
 .iotextarea .lefttoright {
     display: flex;

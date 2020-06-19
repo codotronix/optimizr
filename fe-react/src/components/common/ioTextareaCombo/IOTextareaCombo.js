@@ -15,6 +15,7 @@ const IOTextareaCombo = props => {
                 <textarea 
                     ref={ref1} 
                     placeholder={placeholder1 || ''}
+                    spellcheck="false"
                 ></textarea>
             </div>
             <div className="lefttoright" onClick={handleConvert}>click</div>
@@ -22,6 +23,7 @@ const IOTextareaCombo = props => {
                 <textarea 
                     placeholder={placeholder2 || ''} 
                     value={value2}
+                    spellcheck="false"
                 ></textarea>
             </div>
         </div>
